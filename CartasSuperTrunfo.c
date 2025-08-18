@@ -3,7 +3,7 @@
 
 /* Desafio Super Trunfo - Países
  Tema 1 - Cadastro das Cartas
- OBS: Nível Novato do desafio: focado apenas no cadastro das cartas, 
+ OBS: Nível Novato do desafio: focado apenas no cadastro das cartas (Cidade 1 e 2), 
       utilizando as funções scanf para ler os dados e printf para exibi-los.
 */ 
 
