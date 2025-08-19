@@ -25,7 +25,7 @@ int main() {
     printf("--------------------------------------\n");
 
     printf("Estado: (Uma letra de 'A' a 'H'): ");
-    scanf(" %c", &estado_carta1);   // espaço antes do "%c" para ignora o enter, tabs e espaços
+    scanf(" %c", &estado_carta1);    // espaço antes do "%c" para ignora o enter, tabs e espaços
 
     printf("Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03): "); 
     scanf("%3s", codigoCarta_carta1);
