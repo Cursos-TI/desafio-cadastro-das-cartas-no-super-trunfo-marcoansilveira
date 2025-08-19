@@ -2,8 +2,9 @@
 #include <string.h>
 
 /* Desafio Super Trunfo - Países
- Tema 1 - Cadastro das Cartas
- OBS: Nível Aventureiro do desafio: Calculando Densidade Populacional e PIB per Capita.
+ Tema - Cadastro das Cartas
+ 
+ OBS: Desafio Mestre, Aventureito e Novato
 */ 
 
 int main() {
