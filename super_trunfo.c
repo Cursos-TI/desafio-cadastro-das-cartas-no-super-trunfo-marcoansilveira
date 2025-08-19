@@ -40,7 +40,7 @@ int main() {
     nomeCidade_carta1[strcspn(nomeCidade_carta1, "\n")] = 0; // remove \n    
 
     printf("População (O número de habitantes da cidade): "); 
-    scanf("%d", &populacao_carta1);
+    scanf("%lu", &populacao_carta1);
  
     printf("Área (em km²): ");
     scanf("%f", &areaKm_carta1);
@@ -58,7 +58,7 @@ int main() {
     pibPerCapta_carta1 = (float) pib_carta1 / populacao_carta1;
     
     // Cálculo do Super Poder
-    superPoder_carta1 = (float) populacao_carta1 + areaKm_carta1 + pib_carta1 + 
+    superPoder_carta1 = (double) populacao_carta1 + areaKm_carta1 + pib_carta1 + 
                                 numPontosTuristicos_carta1 + pibPerCapta_carta1 + 
                                 (1.0f / densidade_carta1);
 
@@ -68,7 +68,7 @@ int main() {
     printf("Estado: %c\n", estado_carta1);
     printf("Código: %s \n", codigoCarta_carta1);
     printf("Nome da cidade: %s \n", nomeCidade_carta1);
-    printf("População: %d \n", populacao_carta1);
+    printf("População: %lu \n", populacao_carta1);
     printf("Área: %.2f km² \n", areaKm_carta1);
     printf("PIB: %.2f bilhões de reais \n", pib_carta1);
     printf("Número de pontos turísticos: %d \n", numPontosTuristicos_carta1);
@@ -97,7 +97,7 @@ int main() {
     nomeCidade_carta2[strcspn(nomeCidade_carta2, "\n")] = 0; // remove \n    
 
     printf("População (O número de habitantes da cidade): "); 
-    scanf("%d", &populacao_carta2);
+    scanf("%lu", &populacao_carta2);
  
     printf("Área (em km²): ");
     scanf("%f", &areaKm_carta2);
@@ -115,7 +115,7 @@ int main() {
     pibPerCapta_carta2 = (float) pib_carta2 / populacao_carta2;
 
     // Cálculo do Super Poder
-    superPoder_carta2 = (float) populacao_carta2 + areaKm_carta2 + pib_carta2 + 
+    superPoder_carta2 = (double) populacao_carta2 + areaKm_carta2 + pib_carta2 + 
                                 numPontosTuristicos_carta2 + pibPerCapta_carta2 + 
                                 (1.0f / densidade_carta2);
 
@@ -125,7 +125,7 @@ int main() {
     printf("Estado: %c\n", estado_carta2);
     printf("Código: %s \n", codigoCarta_carta2);
     printf("Nome da cidade: %s \n", nomeCidade_carta2);
-    printf("População: %d \n", populacao_carta2);
+    printf("População: %lu \n", populacao_carta2);
     printf("Área: %.2f km² \n", areaKm_carta2);
     printf("PIB: %.2f bilhões de reais \n", pib_carta2);
     printf("Número de pontos turísticos: %d \n", numPontosTuristicos_carta2);
