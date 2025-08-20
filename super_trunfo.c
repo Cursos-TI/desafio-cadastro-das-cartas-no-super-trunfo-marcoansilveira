@@ -2,7 +2,7 @@
 #include <string.h>
 
 /* Desafio Super Trunfo - Países
- Tema 2 - Super Trunfo em c: Fundamentos e Técnicas Avançadas - Desafio Mestre  (Meste + Aventureiro + Novato)
+ Tema 2 - Super Trunfo em c: Fundamentos e Técnicas Avançadas - Desafio Mestre  (Mestre + Aventureiro + Novato)
  
  OBS: Desafio Mestre, Aventureito e Novato
 */ 
