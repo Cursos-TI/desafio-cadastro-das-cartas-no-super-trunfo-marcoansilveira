@@ -2,7 +2,7 @@
 #include <string.h>
 
 /* Desafio Super Trunfo - Países
- Tema - Cadastro das Cartas
+ Tema 2 - Super Trunfo em c: Fundamentos e Técnicas Avançadas - Desafio Mestre  (Meste + Aventureiro + Novato)
  
  OBS: Desafio Mestre, Aventureito e Novato
 */ 
